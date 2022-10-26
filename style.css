@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(255, 255, 255) !important;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bg-gray {
+    background-color: #1A699E;
+    min-height: 100vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    z-index: 2;
+}
+
+.nav-content {
+    margin-top: 200px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 13px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255) !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overflow-none {
+    overflow: visible !important;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cursor-pointer {
+    transition: all 225ms ease-in-out;
+}
+
+.answer-btn {
+    border: 0.1px solid lightgray;
+    background-color: white;
+}
+
+.answer-btn:hover {
+    background-color: rgb(228, 232, 232);
+}
+
+.bg-success,
+.bg-danger {
+    color: white;
+}
+
+.with-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.final-text {
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+.card-img-top {
+    width: max-content !important;
+}
+
+.img-topx {
+    display: flex;
+    justify-content: center;
+}
